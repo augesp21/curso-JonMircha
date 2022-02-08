@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendiendo HTML</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+    <h2 id="inicio">Aprendiendo HTML</h2>
+  <!-- Esto es un comentario -->
+  <!--
+    Enlaces de la sección de introducción a HTML y su documentación
+      - https://www.w3.org/html/
+      - https://html.spec.whatwg.org/
+      - https://www.w3.org/blog/news/archives/7753
+      - https://developer.mozilla.org/es/docs/Web/HTML
+      - https://htmlreference.io/
+      - Caracteres especiales HTML https://desarrolloweb.com/articulos/11.php
+    -->
+  <p>Hola, escribiendo mi primer documento HTML</p>
+  <p>Aprendiendo sobre Diseño Web</p>
+  <hr>
+  <h2>Encabezados HTML</h2>
+  <h1>Encabezado de nivel 1 - sólo puede existir un h1 por documento html</h1>
+  <h2>Encabezado de nivel 2</h2>
+  <h3>Encabezado de nivel 3</h3>
+  <h4>Encabezado de nivel 4</h4>
+  <h5>Encabezado de nivel 5</h5>
+  <h6>Encabezado de nivel 6</h6>
+  <br>
+  <hr>
+  <h2>Etiquetas de Texto Básicas</h2>
+  <p>Un párrafo</p>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur odio saepe repellat debitis consequuntur
+    architecto eaque deserunt quisquam aliquid nemo. Ex delectus provident qui unde id tempore, eos doloremque ut.</p>
+  <p>
+    Palabras en: <b>negrita</b>, <i>itálica</i>, <u>subrayado</u>, e=mc<sup>2</sup>, H<sub>2</sub>O,
+    <mark>marca texto</mark> <small>letras pequeñas</small>
+  </p>
+  <br>
+  <hr>
+  <h2>Etiquetas de Texto Semánticas</h2>
+  <p>
+    <strong>Este texto es importante</strong>. <em>Este texto hace énfasis</em>.
+  </p>
+  <blockquote>Yo sólo sé, que no se nada</blockquote>
+  <cite>Sócrates</cite>
+  <br>
+  <hr>
+  <h2>Etiquetas de Saltos</h2>
+  <p>
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>Illum accusantium laborum veritatis eius dolor numquam
+    deserunt, in itaque earum beatae quis enim minus ipsum nihil. <br><br>Ratione tempora aliquid minus dolor?
+  </p>
+  <br>
+  <hr>
+  <h2>Etiquetas de Formateo</h2>
+  <p>
+  <pre>
+    Tareas por hacer:
+    - HTML
+      - Terminar de grabar las secciones de este curso.
+      - Editar en un sólo Video
+    - CSS
+      - Comenzar a grabar secciones CSS
+      - Editar en un sólo Video
+  </pre>
+  </p>
+  <p>
+    <code>Este texto está en formato de código</code>
+  </p>
+  <p>
+  <pre>
+      <code>
+        import React from "react";
+        import Title from "./Title";
+        
+        function App {
+          return &lt;Title /&gt;
+        }
+      </code>
+    </pre>
+  </p>
+  <br>
+  <hr>
+  <h2>Etiquetas Semánticas Estructurales</h2>
+  <div>div - Es una etiqueta contenedora que no tiene semántica</div>
+  <header>header - Cabecera de un sitio web o de una sección</header>
+  <main>
+    main - Define la sección principal del documento, sólo puede existir una
+    etiqueta main por documento
+  </main>
+  <footer>footer - Pié de página de un sitio web o de una sección</footer>
+  <nav>nav - Representa una navegación</nav>
+  <article>
+    article - Representa una sección autocontenido (que por sí sola se
+    explica)
+  </article>
+  <aside>aside - Representa contenido complementario o secundario</aside>
+  <section>section - Representa una sección de contenido genérico</section>
+  <address>address - Representa una información de contacto</address>
+  <br>
+  <hr>
+  <h2 id="bloque-linea">Etiquetas de Bloque VS Etiquetas de Línea</h2>
+  <div style="background-color: yellow; color: red;">La etiqueta de bloque por excelencia es la div, una etiqueta de
+    bloque es
+    aquella que genera saltos de línea con sus etiquetas hermanas.</div>
+  <span style="background-color: greenyellow;">La etiqueta de línea por excelencia es la span, una etiqueta de línea
+    sólo ocupa el espacio necesario que tiene
+    su contenido.</span>
+  <span>Hola soy otra span</span>
+  <br>
+  <hr>
+
+    <h2>Estilos CSS en HTML</h2>
+    <hr>
+    <h2>Scripts en HTML</h2>
+    <hr>
+    <h2>Imágenes</h2>
+    <img src="img/periodic-table-of-html-elements.png" alt="Tabla periodica de los elementos HTML">
+    <img src="img/puesta-sol.jpg" alt="Puesta de sol y Kenai">
+    <img src="img/this-is-fine.gif" alt="Meme del perro This is This Is Fine">
+    <img src="img/kEnAi.svg" alt="kEnAi">
+    <hr>
+    <h2>Figuras</h2>
+    <figure>
+        <img src="img/periodic-table-of-html-elements.png" alt="Tabla periodica de los Elementos HTML">
+        <figcaption>Tabla periodica de los Elementos HTML</figcaption>
+    </figure>
+    <hr>
+    <h2>Listas Ordenadas</h2>
+    <h3>Las estaciones del año</h3>
+    <ol>
+        <li>Primavera</li>
+        <li>Verano</li>
+        <li>Otoño</li>
+        <li>Invierno</li>
+    </ol>
+    <ol start="5">
+        <li>Primavera</li>
+        <li>Verano</li>
+        <li>Otoño</li>
+        <li>Invierno</li>
+    </ol>
+    <ol type="i" reversed>
+        <li>Primavera</li>
+        <li>Verano</li>
+        <li>Otoño</li>
+        <li>Invierno</li>
+    </ol>
+    <hr>
+    <h2>Listas Desordenadas</h2>
+    <h3>Cosas por hacer</h3>
+    <ul>
+        <li>Terminar de hacer los catalogos de conceptos</li>
+        <li>Hacer el informe de consumo de agua purificada</li>
+        <li>Tarea de curso DEVF</li>
+        <li>F*cking Pinterest</li>
+    </ul>
+    <ul type="square">
+        <li>Terminar de hacer los catalogos de conceptos</li>
+        <li>Hacer el informe de consumo de agua purificada</li>
+        <li>Tarea de curso DEVF</li>
+        <li>F*cking Pinterest</li>
+    </ul>
+    <ul type="circle">
+        <li>Terminar de hacer los catalogos de conceptos</li>
+        <li>Hacer el informe de consumo de agua purificada</li>
+        <li>Tarea de curso DEVF</li>
+        <li>F*cking Pinterest</li>
+    </ul>
+    <hr>
+    <h2>Listas de Definición</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Es un lenguaje de marcado que define el contenido de la web</dd>
+        <dt>CSS</dt>
+        <dd>Es un lenguaje de definición que da estilos al codigo HTML</dd>
+        <dt>JavaScript</dt>
+        <dd>Es el lenguaje de la web</dd>
+    </dl>
+    <hr>
+    <h2>Tablas</h2>
+    <table>
+        <tr>
+            <td>Nombre</td>
+            <td>Constelación</td>
+            <td>Tipo</td>
+        </tr>
+        <tr>
+            <td>Ikki</td>
+            <td>Fénix</td>
+            <td>Bronce</td>
+        </tr>
+        <tr>
+            <td>Shaina</td>
+            <td>Ofiuco</td>
+            <td>Plata</td>
+        </tr>
+        <tr>
+            <td>Saga</td>
+            <td>Géminis</td>
+            <td>Dorado</td>
+        </tr>
+    </table>
+    <br><br><br>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="3">Tabla de los Santos de Athena</th>
+            </tr>
+            <tr>
+                <th>Nombre</th>
+                <th>Constelación</th>
+                <th>Tipo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ikki</td>
+                <td>Fénix</td>
+                <td>Bronce</td>
+            </tr>
+            <tr>
+                <td>Mistry</td>
+                <td>Lagarto</td>
+                <td>Plata</td>
+            </tr>
+            <tr>
+                <td>Saga</td>
+                <td>Géminis</td>
+                <td>Dorado</td>
+            </tr>
+            <tr>
+                <td>Shaina</td>
+                <td rowspan="2">Ofiuco</td>
+                <td>Plata</td>
+            </tr>
+            <tr>
+                <td>Odiseo</td>
+                <td>Dorado</td>
+            </tr>
+        </tbody>
+        <tfoot>
+<th colspan="3"><small>Saint Seya fue creado por Masami Kurumara</small></th>
+        </tfoot>
+    </table>
+    <hr>
+    <h2>Enlaces</h2>
+    <a href="hola.html">Hacia la pagina Hola</a>
+    <br>
+    <a href="https://jonmircha.com" target="_blank" rel="nofollow">Visita el sitio de jonmircha.com</a>
+    <br>
+    <a href="https://jonmircha.com/cursos" target="_blank">
+        <img src="img/kEnAi.svg" alt="Ir hacia los cursos de jonmircha.com" width="40" height="40">
+    </a>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <script>
+        console.log("Hola estamos aprendiendo HTML")
+    </script>
+    <script src="js/codigos.js"></script>
+
+</body>
+
+</html>

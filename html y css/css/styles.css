@@ -1,0 +1,12 @@
+body {
+    font-family: sans-serif;
+}
+
+h2 {
+    color: orangered;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
